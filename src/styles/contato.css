@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+}
+
+.div {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background: linear-gradient(90deg, rgb(2, 119, 208), rgb(2, 119, 208));
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+}
+
+.header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.menu {
+    color: white;
+}
+
+.section {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.section h2 {
+    color: rgb(2, 119, 208);
+    margin-bottom: 15px;
+}
+
+.botao {
+    display: inline-block;
+    background: rgb(14, 0, 102);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.botao:hover {
+    background: rgb(0, 255, 247);
+    transform: translateY(-2px);
+}
+
+.operadoras {
+    padding: 40px 0;
+}
+
+.plano {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border-top: 4px solid rgb(2, 119, 208);
+    box-shadow: 0 6px 15px rgba(0,0,0,.1);
+}
+
+.plano h3 {
+    color:  rgb(2, 119, 208);;
+}
+
+.rodape {
+    background:  rgb(2, 119, 208);;
+    color: white;
+    padding: 35px 0;
+    margin-top: 40px;
+}

@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+}
+
+.div {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background: rgb(2, 119, 208);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+}
+
+.header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.menu {
+    color: white;
+}
+
+.section {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.section h2 {
+    color: rgb(2,119,208);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.botao {
+    display: inline-block;
+    background: rgb(14,0,102);
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.botao:hover {
+    background: rgb(0, 255, 247);
+    transform: translateY(-2px);
+}
+
+.operadoras {
+    padding: 40px 0;
+}
+
+.operadoras h2{
+    grid-column: 1 / -1;
+    text-align: center;
+    color: rgb(2,119,208);
+    margin-bottom: 20px;
+}
+
+.operadoras .div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 25px;
+}
+
+.plano {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border-top: 4px solid rgb(2,119,208);
+    box-shadow: 0 6px 15px rgba(0,0,0,.1);
+    text-align: center;
+    transition: .3s;
+}
+
+.plano:hover {
+    transform: translateY(-5px);
+}
+
+.plano h3 {
+    color: rgb(2,119,208);
+}
+
+.plano p {
+    line-height: 1.6;
+}
+
+.plano img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-top: 15px;
+}
+
+.rodape {
+    background: rgb(2,119,208);
+    color: white;
+    padding: 35px 0;
+    margin-top: 40px;
+}
+
+.rodape ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape li {
+    margin: 8px 0;
+}
